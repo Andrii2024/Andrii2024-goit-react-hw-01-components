@@ -1,7 +1,7 @@
 .item {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 10px;
   padding: 15px;
   border-radius: 10px;
@@ -10,18 +10,23 @@
 }
 
 .status {
-  display: flex;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin-right: 8px;
 }
 
 .online {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 8px;
   background-color: green;
 }
 
 .offline {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 8px;
   background-color: red;
 }
 
